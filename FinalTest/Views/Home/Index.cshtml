@@ -1,0 +1,23 @@
+﻿
+@section Scripts {
+    @Scripts.Render("~/Scripts/skripta.js")
+}
+
+@{
+    Html.RenderPartial("_prijavaKorisnika");
+}
+
+@{
+    Html.RenderPartial("_registracijaKorisnika");
+}
+
+<br /><br />
+
+@{
+    Html.RenderPartial("_prikazFestivala");
+}
+
+
+@{
+    Html.RenderPartial("_korisnikPrijavljen");
+}
